@@ -18,8 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <header>
-          <h2>포켓몬 도감</h2>
+        <header className="bg-blue-500 text-white text-center py-4">
+          <div className="container mx-auto px-4">
+            <h2 className="text-2xl font-semibold">포켓몬 도감</h2>
+          </div>
         </header>
         {children}
       </body>
