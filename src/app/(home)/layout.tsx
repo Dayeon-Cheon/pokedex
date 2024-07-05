@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Pokedex",
   description:
-    "포켓몬 리스트를 한눈에! 모든 포켓몬의 이름, 번호, 타입, 특성 정보 등을 제공하는 사이트.",
+    "포켓몬 리스트를 한눈에! 모든 포켓몬의 이름, 번호, 타입, 특성 정보 등을 제공하는 사이트 입니다.",
 };
 
 export default function RootLayout({
